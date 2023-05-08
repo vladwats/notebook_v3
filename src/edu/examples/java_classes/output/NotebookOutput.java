@@ -39,15 +39,15 @@ public class NotebookOutput {
 	}
 	
 	public void printYear() {
-		System.out.println("Enter the year: ");
+		System.out.println("Enter the year: ".toUpperCase());
 	}
 	
 	public void printMonth() {
-		System.out.println("Enter the month: ");
+		System.out.println("Enter the month: ".toUpperCase());
 	}
+	
 	public void printDay() {
-		System.out.println("Enter the day: ");
-
+		System.out.println("Enter the day: ".toUpperCase());
 	}
 
 }
