@@ -27,11 +27,11 @@ public class NotebookOutput {
 	}
 	
 	public void printTitle() {
-		System.out.println("Enter the title: ");
+		System.out.println("Enter the title: ".toUpperCase());
 	}
 	
 	public void printContent() {
-		System.out.println("Enter the content: ");
+		System.out.println("Enter the content: ".toUpperCase());
 	}
 	
 	public void printStartOfPrinting() {
